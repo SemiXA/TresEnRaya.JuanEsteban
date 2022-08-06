@@ -1,0 +1,64 @@
+body{
+  margin: 0 5rem;
+  text-align: center;
+  background-color: rgba(96, 163, 141, 0.644);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+  color: rgba(0, 0, 0, 0.685);
+}
+address{
+  text-align: right;
+}
+#buttonsContainer{
+  margin: auto;
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.boardButton{
+  border: 10px solid rgba(0, 0, 0, 0.685);
+  border-top: none;
+  border-right: none;
+  width: auto;
+  height: 145px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 100px;
+}
+.bordersL{
+  border-left: none;
+}
+.bordersB{
+  border-bottom: none;
+}
+
+
+#resetButton {
+  font-size: large;
+  width: 20%;
+  height: 50px;
+  border: 2px inset rgba(30, 90, 30, 0.623);
+  background-color:rgba(0, 0, 0, 0.308);
+  font-weight: 100;
+}
+.X{
+  color: darkslategray;
+}
+.O{
+  color: rgba(99, 4, 4, 0.712);
+}
+.winner{
+  color: green;
+}
+
+.hidden{
+  visibility: hidden;
+}
+.visible{
+  visibility: visible;
+}
+
+#winAnnounce{
+  font-size: 70px;
+}
+
