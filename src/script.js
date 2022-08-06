@@ -49,6 +49,8 @@ function drawCheck(){
   const draw = winnerAnnounce.innerText == `¿Jugamos?` && numberOfTurns == 9;
   if(draw){
         winnerAnnounce.innerText = `Draw!!!`;
+        turnAnnounce.classList.remove(`visible`)
+        turnAnnounce.classList.add(`hidden`);
         setTimeout(()=>alert(`Habeis empatado!!! reseteando tabla....`),1000);
         setTimeout(()=>resetBoard(),1000);
       }
